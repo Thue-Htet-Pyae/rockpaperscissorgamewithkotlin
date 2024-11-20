@@ -29,7 +29,6 @@ fun getUserChoice(optionsParam: Array<String>): String {
 
 fun printResult(userChoice:String, gameChoice:String) {
     val result: String
-    println("Game Choice is $gameChoice")
     if(userChoice == gameChoice) result = "Draw"
     else if ((userChoice=="Rock" && gameChoice=="Scissors")||
         (userChoice=="Scissors" && gameChoice=="Paper")||
